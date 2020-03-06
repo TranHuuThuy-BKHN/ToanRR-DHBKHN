@@ -1,0 +1,13 @@
+graph dothi
+{
+1[fillcolor = red, style = filled];
+2[fillcolor = green, style = filled];
+3[fillcolor = red, style = filled];
+4[fillcolor = green, style = filled];
+5[fillcolor = green, style = filled];
+1 -- 2;
+2 -- 3;
+3 -- 4;
+4 -- 1;
+1 -- 5;
+}
